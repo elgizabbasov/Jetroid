@@ -44,7 +44,7 @@ public class Player : MonoBehaviour
         var forceX = 0f;
         var forceY = 0f;
 
-        if(controller.moving.x != 0) {
+        if (controller.moving.x != 0) {
             if(absVelx < maxVelocity.x) {
                 var newSpeed = speed * controller.moving.x;
                 forceX = standing ? newSpeed : (newSpeed * airSpeedMultiplier);
