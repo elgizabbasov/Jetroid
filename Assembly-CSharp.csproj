@@ -59,13 +59,16 @@
      <Compile Include="Assets\Jetroid\Scripts\Debris.cs" />
      <Compile Include="Assets\Jetroid\Scripts\Explode.cs" />
      <Compile Include="Assets\Jetroid\Scripts\FloatEffect.cs" />
+     <Compile Include="Assets\Jetroid\Scripts\LevelControl.cs" />
      <Compile Include="Assets\Jetroid\Scripts\LookForward.cs" />
      <Compile Include="Assets\Jetroid\Scripts\MoveForward.cs" />
      <Compile Include="Assets\Jetroid\Scripts\Player.cs" />
      <Compile Include="Assets\Jetroid\Scripts\PlayerController.cs" />
      <Compile Include="Assets\Jetroid\Scripts\RandomSprite.cs" />
+     <Compile Include="Assets\Jetroid\Scripts\TooMuchGame.cs" />
      <Compile Include="Assets\TileMapEditor\Scripts\TileBrush.cs" />
      <Compile Include="Assets\TileMapEditor\Scripts\TileMap.cs" />
+     <None Include="Assets\CasualGameBGM05\ReadMe.txt" />
  <Reference Include="UnityEngine.Purchasing">
  <HintPath>D:/udemyC#Unity/Jetroid/Library/ScriptAssemblies/UnityEngine.Purchasing.dll</HintPath>
  </Reference>

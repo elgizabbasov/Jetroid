@@ -7,6 +7,7 @@ public class Explode : MonoBehaviour
 
     public Debris debris;
     public int totalDebris = 10;
+    [SerializeField] private AudioSource dyingSound; // TODO: NOT WORKING 
 
     // Start is called before the first frame update
     void Start()
@@ -42,7 +43,9 @@ public class Explode : MonoBehaviour
             body2D.AddForce(Vector3.right * Random.Range(-1000, 1000));
             body2D.AddForce(Vector3.up * Random.Range(-500, 2000));
         }
-
+        dyingSound.Play();
         Destroy(gameObject);
+        
+        
     }
 }

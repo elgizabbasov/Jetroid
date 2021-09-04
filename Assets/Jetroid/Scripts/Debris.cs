@@ -24,7 +24,7 @@ public class Debris : MonoBehaviour
         renderer2D.material.color = Color.Lerp(start, end, t/2);
         if (renderer2D.material.color.a <= 0f){
             Destroy(gameObject);
-            RestartLevel();
+            RestartLevel(); // TODO: BETTER WAY TO RESTART
         }
     }
 
