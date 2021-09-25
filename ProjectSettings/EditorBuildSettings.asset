@@ -20,4 +20,22 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Jetroid/Scenes/Level 4.unity
     guid: 66f3f184954384440bfd7a587bf7d003
+  - enabled: 1
+    path: Assets/Jetroid/Scenes/Level 5.unity
+    guid: a75dd8a2487acf3478325d2506442324
+  - enabled: 1
+    path: Assets/Jetroid/Scenes/Level 6.unity
+    guid: 109dfd6ee15b18442a130c0251a6c653
+  - enabled: 1
+    path: Assets/Jetroid/Scenes/Level 7.unity
+    guid: 866a3217708a5b54f8295705efb6ad48
+  - enabled: 1
+    path: Assets/Jetroid/Scenes/Level 8.unity
+    guid: 784c5151e134a50439d5fa88823877bf
+  - enabled: 1
+    path: Assets/Jetroid/Scenes/Level 9.unity
+    guid: 5cf541ad224ac854abacec7ae7b1d326
+  - enabled: 1
+    path: Assets/Jetroid/Scenes/Level 10.unity
+    guid: 80fb79fcd32e58947ac0a8ffebd817f2
   m_configObjects: {}

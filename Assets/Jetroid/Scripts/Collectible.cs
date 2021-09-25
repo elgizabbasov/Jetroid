@@ -5,15 +5,16 @@ using UnityEngine.UI;
 
 public class Collectible : MonoBehaviour
 {
-    public int crystals = 0;
+    GameController gameController;
 
-    [SerializeField] private Text crystalsText;
+    void Start() {
+        gameController = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameController>();
+    }
 
     void OnTriggerEnter2D(Collider2D target){
-        if (target.gameObject.CompareTag("Crystal")){
-            Destroy(target.gameObject);
-            crystals++;
-            crystalsText.text = "Crystals: " + crystals;
+        if (target.gameObject.CompareTag("Player")){
+            Destroy(gameObject);
+            gameController.crystals++;
         }
     }
 }

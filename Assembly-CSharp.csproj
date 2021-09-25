@@ -59,6 +59,7 @@
      <Compile Include="Assets\Jetroid\Scripts\Debris.cs" />
      <Compile Include="Assets\Jetroid\Scripts\Explode.cs" />
      <Compile Include="Assets\Jetroid\Scripts\FloatEffect.cs" />
+     <Compile Include="Assets\Jetroid\Scripts\GameController.cs" />
      <Compile Include="Assets\Jetroid\Scripts\LevelControl.cs" />
      <Compile Include="Assets\Jetroid\Scripts\LookForward.cs" />
      <Compile Include="Assets\Jetroid\Scripts\MoveForward.cs" />
