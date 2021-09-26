@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class LevelControl : MonoBehaviour
 {
-    private static int maxCrystals = 2;
+    public int maxCrystals = 2;
     GameController gameController;
 
     void Start() {
