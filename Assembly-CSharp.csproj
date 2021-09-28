@@ -56,6 +56,7 @@
      <Compile Include="Assets\Jetroid\Scripts\CameraFollow.cs" />
      <Compile Include="Assets\Jetroid\Scripts\ClickToContinue.cs" />
      <Compile Include="Assets\Jetroid\Scripts\Collectible.cs" />
+     <Compile Include="Assets\Jetroid\Scripts\DeathMenu.cs" />
      <Compile Include="Assets\Jetroid\Scripts\Debris.cs" />
      <Compile Include="Assets\Jetroid\Scripts\Explode.cs" />
      <Compile Include="Assets\Jetroid\Scripts\FloatEffect.cs" />

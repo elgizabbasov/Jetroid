@@ -35125,6 +35125,11 @@ PrefabInstance:
       propertyPath: maxCrystals
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 1480389126594517288, guid: 701b3eb699655f5419c44952b3019d01,
+        type: 3}
+      propertyPath: currCrystalLevel
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1480389126594517289, guid: 701b3eb699655f5419c44952b3019d01,
         type: 3}
       propertyPath: m_Name

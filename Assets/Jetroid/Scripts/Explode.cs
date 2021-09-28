@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Explode : MonoBehaviour
 {
-
+    public DeathMenu deathMenu;
     public Debris debris;
     public int totalDebris = 10;
     [SerializeField] private AudioSource dyingSound; // TODO: NOT WORKING 
@@ -43,9 +43,12 @@ public class Explode : MonoBehaviour
             body2D.AddForce(Vector3.right * Random.Range(-1000, 1000));
             body2D.AddForce(Vector3.up * Random.Range(-500, 2000));
         }
-        dyingSound.Play();
-        Destroy(gameObject);
-        
-        
+        dyingSound.Play(); // TODO: doesnt play!!
+        Destroy(gameObject); 
+        GameOver();  // TODO: Pass in the timer value
+    }
+
+    void GameOver(){
+        deathMenu.Setup(); // TODO: Pass in the timer value
     }
 }
