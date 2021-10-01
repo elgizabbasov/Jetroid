@@ -67,6 +67,7 @@
      <Compile Include="Assets\Jetroid\Scripts\Player.cs" />
      <Compile Include="Assets\Jetroid\Scripts\PlayerController.cs" />
      <Compile Include="Assets\Jetroid\Scripts\RandomSprite.cs" />
+     <Compile Include="Assets\Jetroid\Scripts\TimerController.cs" />
      <Compile Include="Assets\Jetroid\Scripts\TooMuchGame.cs" />
      <Compile Include="Assets\TileMapEditor\Scripts\TileBrush.cs" />
      <Compile Include="Assets\TileMapEditor\Scripts\TileMap.cs" />

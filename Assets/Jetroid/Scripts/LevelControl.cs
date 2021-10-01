@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-// MAX_CRYSTALS = 8;
 
 public class LevelControl : MonoBehaviour
 {
@@ -13,7 +12,7 @@ public class LevelControl : MonoBehaviour
     }
     
     public int currCrystalLevel = 2;
-    private int maxCrystals = 8;
+    private static int maxCrystals = 8;
     GameController gameController;
     SpriteRenderer sprite;
 
@@ -36,6 +35,7 @@ public class LevelControl : MonoBehaviour
             if(currCrystalLevel < maxCrystals) {
                 currCrystalLevel++;
             }
+            PlayerPrefs.SetFloat("time", TimerController.instance.elapsedTime); // Save time when level completed
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
     }

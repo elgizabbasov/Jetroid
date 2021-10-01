@@ -12,12 +12,12 @@ public class GameController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        TimerController.instance.BeginTimer();
     }
 
     // Update is called once per frame
     void Update()
     {
-        crystalsText.text = "Crystals: " + crystals;
+        crystalsText.text = "Crystals: " + crystals + "/" + LevelControl.instance.currCrystalLevel;
     }
 }

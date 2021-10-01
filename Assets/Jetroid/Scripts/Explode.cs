@@ -44,11 +44,11 @@ public class Explode : MonoBehaviour
             body2D.AddForce(Vector3.up * Random.Range(-500, 2000));
         }
         dyingSound.Play(); // TODO: doesnt play!!
-        Destroy(gameObject); 
-        GameOver();  // TODO: Pass in the timer value
+        Destroy(gameObject);
+        GameOver(TimerController.instance.EndTimer()); 
     }
 
-    void GameOver(){
-        deathMenu.Setup(); // TODO: Pass in the timer value
+    void GameOver(string timeAlive){
+        deathMenu.Setup(timeAlive);
     }
 }
