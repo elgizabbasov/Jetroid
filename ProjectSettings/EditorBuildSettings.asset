@@ -38,4 +38,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Jetroid/Scenes/Level 10.unity
     guid: 80fb79fcd32e58947ac0a8ffebd817f2
+  - enabled: 1
+    path: Assets/Jetroid/Scenes/EndScene.unity
+    guid: 4e315479df139f249be0237a86b07a2c
   m_configObjects: {}
