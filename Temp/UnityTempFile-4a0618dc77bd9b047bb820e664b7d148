@@ -297,11 +297,13 @@
 /define:UNITY_TEAM_LICENSE
 /define:CSHARP_7_OR_LATER
 /define:CSHARP_7_3_OR_NEWER
+Assets\Jetroid\Scripts\BGManager.cs
 Assets\Jetroid\Scripts\CameraFollow.cs
 Assets\Jetroid\Scripts\ClickToContinue.cs
 Assets\Jetroid\Scripts\Collectible.cs
 Assets\Jetroid\Scripts\DeathMenu.cs
 Assets\Jetroid\Scripts\Debris.cs
+Assets\Jetroid\Scripts\DontKillMyVibe.cs
 Assets\Jetroid\Scripts\Explode.cs
 Assets\Jetroid\Scripts\FloatEffect.cs
 Assets\Jetroid\Scripts\GameController.cs
@@ -311,6 +313,7 @@ Assets\Jetroid\Scripts\MoveForward.cs
 Assets\Jetroid\Scripts\Player.cs
 Assets\Jetroid\Scripts\PlayerController.cs
 Assets\Jetroid\Scripts\RandomSprite.cs
+Assets\Jetroid\Scripts\SoundManager.cs
 Assets\Jetroid\Scripts\TimerController.cs
 Assets\Jetroid\Scripts\TooMuchGame.cs
 Assets\TileMapEditor\Scripts\TileBrush.cs

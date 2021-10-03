@@ -13,6 +13,7 @@ public class Collectible : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D target){
         if (target.gameObject.CompareTag("Player")){
+            SoundManager.PlaySound("collecting");
             Destroy(gameObject);
             gameController.crystals++;
         }

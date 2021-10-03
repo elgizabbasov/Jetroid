@@ -16,8 +16,7 @@ public class ClickToContinue : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //  TODO : Add Input.anyKey
-        if(Input.GetMouseButtonDown(0) && !loadLock) {
+        if(Input.GetKeyDown("q") && !loadLock) {
             LoadScene();
         }
     }

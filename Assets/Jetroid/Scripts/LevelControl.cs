@@ -27,11 +27,13 @@ public class LevelControl : MonoBehaviour
         }
     }
 
+
     void OnTriggerEnter2D(Collider2D collision){
         if(collision.CompareTag("Player") && gameController.crystals != currCrystalLevel){
             print("Grab all the crystals first! " + gameController.crystals + " you need: " + currCrystalLevel);
         }
         else if (collision.CompareTag("Player") && gameController.crystals == currCrystalLevel){
+            SoundManager.PlaySound("completing");
             if(currCrystalLevel < maxCrystals) {
                 currCrystalLevel++;
             }

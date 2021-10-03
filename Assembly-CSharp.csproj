@@ -53,11 +53,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Jetroid\Scripts\BGManager.cs" />
      <Compile Include="Assets\Jetroid\Scripts\CameraFollow.cs" />
      <Compile Include="Assets\Jetroid\Scripts\ClickToContinue.cs" />
      <Compile Include="Assets\Jetroid\Scripts\Collectible.cs" />
      <Compile Include="Assets\Jetroid\Scripts\DeathMenu.cs" />
      <Compile Include="Assets\Jetroid\Scripts\Debris.cs" />
+     <Compile Include="Assets\Jetroid\Scripts\DontKillMyVibe.cs" />
      <Compile Include="Assets\Jetroid\Scripts\Explode.cs" />
      <Compile Include="Assets\Jetroid\Scripts\FloatEffect.cs" />
      <Compile Include="Assets\Jetroid\Scripts\GameController.cs" />
@@ -67,6 +69,7 @@
      <Compile Include="Assets\Jetroid\Scripts\Player.cs" />
      <Compile Include="Assets\Jetroid\Scripts\PlayerController.cs" />
      <Compile Include="Assets\Jetroid\Scripts\RandomSprite.cs" />
+     <Compile Include="Assets\Jetroid\Scripts\SoundManager.cs" />
      <Compile Include="Assets\Jetroid\Scripts\TimerController.cs" />
      <Compile Include="Assets\Jetroid\Scripts\TooMuchGame.cs" />
      <Compile Include="Assets\TileMapEditor\Scripts\TileBrush.cs" />
