@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-
     public float speed = 150f;
     public Vector2 maxVelocity = new Vector2(60, 100);
     public float jetSpeed = 200f;
@@ -16,9 +15,6 @@ public class Player : MonoBehaviour
     private SpriteRenderer renderer2D;
     private PlayerController controller;
     private Animator animator;
-
-
-
 
     // Start is called before the first frame update
     void Start()
@@ -41,11 +37,10 @@ public class Player : MonoBehaviour
             standing = false;
         }
 
-
         var forceX = 0f;
         var forceY = 0f;
 
-        if (controller.moving.x != 0) {
+        if(controller.moving.x != 0) {
             if(absVelx < maxVelocity.x) {
                 var newSpeed = speed * controller.moving.x;
                 forceX = standing ? newSpeed : (newSpeed * airSpeedMultiplier);
@@ -56,7 +51,7 @@ public class Player : MonoBehaviour
             animator.SetInteger("AnimState", 0);
         }
 
-        if (controller.moving.y > 0){
+        if(controller.moving.y > 0){
             if(absVely < maxVelocity.y){
                 forceY = jetSpeed * controller.moving.y;
             }
@@ -66,6 +61,7 @@ public class Player : MonoBehaviour
         }
 
         body2D.AddForce(new Vector2(forceX, forceY));
+
 
     }
 }

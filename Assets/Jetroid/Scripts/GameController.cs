@@ -7,7 +7,8 @@ public class GameController : MonoBehaviour
 {
 
     public int crystals = 0;
-    [SerializeField] private Text crystalsText;
+    [SerializeField] 
+    private Text crystalsText;
     
     // Start is called before the first frame update
     void Start()

@@ -13,7 +13,6 @@ public class FloatEffect : MonoBehaviour
     {
         rectTransform = GetComponent<RectTransform>();
         startY = rectTransform.anchoredPosition.y;
-        
     }
 
     // Update is called once per frame

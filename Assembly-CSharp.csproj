@@ -53,6 +53,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Jetroid\Scripts\BackToSplash.cs" />
      <Compile Include="Assets\Jetroid\Scripts\BGManager.cs" />
      <Compile Include="Assets\Jetroid\Scripts\CameraFollow.cs" />
      <Compile Include="Assets\Jetroid\Scripts\ClickToContinue.cs" />
@@ -62,6 +63,7 @@
      <Compile Include="Assets\Jetroid\Scripts\DontKillMyVibe.cs" />
      <Compile Include="Assets\Jetroid\Scripts\Explode.cs" />
      <Compile Include="Assets\Jetroid\Scripts\FloatEffect.cs" />
+     <Compile Include="Assets\Jetroid\Scripts\GameComplete.cs" />
      <Compile Include="Assets\Jetroid\Scripts\GameController.cs" />
      <Compile Include="Assets\Jetroid\Scripts\LevelControl.cs" />
      <Compile Include="Assets\Jetroid\Scripts\LookForward.cs" />
