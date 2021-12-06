@@ -418,10 +418,10 @@ RectTransform:
   m_Father: {fileID: 1537019300}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 11.202332, y: -19.59961}
-  m_SizeDelta: {x: -354.40778, y: -463.80524}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 11.202393, y: -39.4}
+  m_SizeDelta: {x: 2289.5923, y: 175.82019}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &291916241
 MonoBehaviour:
@@ -469,7 +469,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Game Completed: 00:00.00'
+  m_Text: "Game Completed: \n00:00.00"
 --- !u!222 &291916243
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -651,11 +651,11 @@ RectTransform:
   m_Father: {fileID: 104868757}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 257, y: -238}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: -63.000122, y: 47.000122}
   m_SizeDelta: {x: 160, y: 30}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_Pivot: {x: 1, y: 0}
 --- !u!114 &745580031
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1287,7 +1287,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef4c7f4c89e51dc4895ecc47a33acc02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timer: {fileID: 0}
+  timer: {fileID: 291916242}
 --- !u!4 &1547225446
 Transform:
   m_ObjectHideFlags: 0
