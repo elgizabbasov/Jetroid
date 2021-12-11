@@ -15,6 +15,7 @@ public class LevelControl : MonoBehaviour
     private static int maxCrystals = 8;
     GameController gameController;
     SpriteRenderer sprite;
+    private int maxLevel = 5;
 
     void Start() {
         gameController = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameController>();
@@ -33,7 +34,12 @@ public class LevelControl : MonoBehaviour
             print("Grab all the crystals first! " + gameController.crystals + " you need: " + currCrystalLevel);
         }
         else if (collision.CompareTag("Player") && gameController.crystals == currCrystalLevel){
-            SoundManager.PlaySound("completing");
+            if(SceneManager.GetActiveScene().buildIndex == maxLevel){
+                SoundManager.PlaySound("gameDone");
+            }
+            else {
+                SoundManager.PlaySound("completing");
+            }
             if(currCrystalLevel < maxCrystals) {
                 currCrystalLevel++;
             }

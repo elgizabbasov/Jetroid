@@ -5,8 +5,7 @@ using UnityEngine;
 
 public class SoundManager : MonoBehaviour
 {
-
-    public static AudioClip deathSound, flySound, completingSound, collectingSound;
+    public static AudioClip deathSound, flySound, completingSound, collectingSound, gameDoneSound;
     static AudioSource audioSrc;
 
     // Start is called before the first frame update
@@ -15,6 +14,7 @@ public class SoundManager : MonoBehaviour
         deathSound = Resources.Load<AudioClip>("dying");
         completingSound = Resources.Load<AudioClip>("completing");
         collectingSound = Resources.Load<AudioClip>("collecting");
+        gameDoneSound = Resources.Load<AudioClip>("completingv3");
         // flySound = Resources.Load<AudioClip>("flySound");
 
         audioSrc = GetComponent<AudioSource>();
@@ -37,6 +37,9 @@ public class SoundManager : MonoBehaviour
         case "collecting":
             audioSrc.PlayOneShot(collectingSound);
             break; 
+        case "gameDone":
+            audioSrc.PlayOneShot(gameDoneSound);
+            break;
         }
     }
 
