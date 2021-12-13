@@ -8,4 +8,5 @@ Created using asset resources provided by Jesse Freeman's Unity2D course.
 [Play!](https://elgizabbasov.itch.io/spacethief)
 
 # Sample snapshot:
-![End](https://user-images.githubusercontent.com/72108920/145756301-58901b81-284a-4197-a22c-81560d17e96f.png)
+![SampleScene](https://user-images.githubusercontent.com/72108920/145756692-a58b659a-b89a-4328-8c91-395c6b106bf8.PNG)
+
