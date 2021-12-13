@@ -7,5 +7,5 @@ Created using asset resources provided by Jesse Freeman's Unity2D course.
 
 [Play!](https://elgizabbasov.itch.io/spacethief)
 
-# Game complete scene:
+# Sample snapshot:
 ![End](https://user-images.githubusercontent.com/72108920/145756301-58901b81-284a-4197-a22c-81560d17e96f.png)
