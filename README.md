@@ -10,4 +10,4 @@ Created using asset resources provided by Jesse Freeman's Unity2D course.
 # Sample snapshots:
 ![SampleScene](https://user-images.githubusercontent.com/72108920/145756692-a58b659a-b89a-4328-8c91-395c6b106bf8.PNG)
 
-![2zh_U_](https://user-images.githubusercontent.com/72108920/147167063-e5070af9-3497-4bf4-ac12-0c6539940c3c.png)
+![SampleEndScene](https://user-images.githubusercontent.com/72108920/147167094-2289ff77-80b8-439a-ba25-53f4b3ff0472.png)
