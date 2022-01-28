@@ -1,4 +1,4 @@
-# [Play!](https://elgizabbasov.itch.io/spacethief)
+# [Play Here!](https://elgizabbasov.itch.io/spacethief)
 # 🚀 SpaceThief 🚀
 ![BG](https://user-images.githubusercontent.com/72108920/145756288-d46caefe-0aa1-42a1-82eb-0b25094838e3.jpg)
 
